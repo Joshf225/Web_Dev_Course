@@ -1,0 +1,57 @@
+<h1>Race Registration</h1>
+
+<form action="https://www.google.com/search/?=chickens">
+  <div>
+    <p>
+      <label for="firstname">FirstName</label>
+      <input type="text" name="firstname" required />
+
+      <label for="lastname">LastName</label>
+      <input type="text" name="lastname" required />
+    </p>
+  </div>
+
+  <div>
+    <p>Select Race:</p>
+  </div>
+
+  <div>
+    <input
+      type="radio"
+      name="race"
+      id="Fun Run 5k"
+      value="Fun Run 5k"
+      required
+    />
+    <label for="Fun Run 5k">Fun Run 5k</label>
+    <br />
+    <input
+      type="radio"
+      name="race"
+      id="Half Marathon"
+      value="Half Marathon"
+      required
+    />
+    <label for="Half Marathon">Half Mararhon</label>
+    <br />
+    <input type="radio" name="race" id="Full Marathon" value="" required />
+    <label for="Full Marathon">Full Marathon</label>
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" required />
+    <label for="password">Password</label>
+    <input type="password" name="password" required />
+    <br />
+    <label for="age select">Select Age Group</label>
+    <select name="age" id="age select" required>
+      <option value="">under 18</option>
+      <option value="18-30">18-30</option>
+      <option value="30-50">30-50</option>
+      <option value="50+">50+</option>
+    </select>
+    <br />
+    <button>Register!</button>
+  </div>
+</form>
